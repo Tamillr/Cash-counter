@@ -1,0 +1,48 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: lightpink;
+}
+
+h1,
+nav,
+p,
+table,
+th,
+td {
+  text-align: center;
+  color: royalblue;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 5px 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid brown;
+}
